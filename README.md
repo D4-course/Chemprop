@@ -1,5 +1,11 @@
-![ChemProp Logo](docs/source/_static/images/chemprop_logo.svg)
-# Molecular Property Prediction
+## TEAM 16
+`Sahithi Reddy ` </br>
+`Venika Annam`
+
+### Pylint Score - 9.47
+
+
+## Molecular Property Prediction
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/chemprop)](https://badge.fury.io/py/chemprop)
 [![PyPI version](https://badge.fury.io/py/chemprop.svg)](https://badge.fury.io/py/chemprop)
@@ -9,13 +15,13 @@ This repository contains message passing neural networks for molecular property 
 
 **Documentation:** Full documentation of Chemprop is available at https://chemprop.readthedocs.io/en/latest/.
 
-**Website:** A web prediction interface with some trained Chemprop models is available at [chemprop.csail.mit.edu](http://chemprop.csail.mit.edu).
+<!-- **Website:** A web prediction interface with some trained Chemprop models is available at [chemprop.csail.mit.edu](http://chemprop.csail.mit.edu). -->
 
 **Tutorial:** These [slides](https://docs.google.com/presentation/d/14pbd9LTXzfPSJHyXYkfLxnK8Q80LhVnjImg8a3WqCRM/edit?usp=sharing) provide a Chemprop tutorial and highlight recent additions as of April 28th, 2020.
 
-## COVID-19 Update
+<!-- ## COVID-19 Update
 
-Please see [aicures.mit.edu](https://aicures.mit.edu) and the associated [data GitHub repo](https://github.com/yangkevin2/coronavirus_data) for information about our recent efforts to use Chemprop to identify drug candidates for treating COVID-19.
+Please see [aicures.mit.edu](https://aicures.mit.edu) and the associated [data GitHub repo](https://github.com/yangkevin2/coronavirus_data) for information about our recent efforts to use Chemprop to identify drug candidates for treating COVID-19. -->
 
 ## Table of Contents
 
@@ -24,7 +30,7 @@ Please see [aicures.mit.edu](https://aicures.mit.edu) and the associated [data G
   * [Option 1: Installing from PyPi](#option-1-installing-from-pypi)
   * [Option 2: Installing from source](#option-2-installing-from-source)
   * [Docker](#docker)
-- [Web Interface](#web-interface)
+<!-- - [Web Interface](#web-interface) -->
 - [Within Python](#within-python)
 - [Data](#data)
 - [Training](#training)
@@ -107,7 +113,7 @@ In addition, you will also need to ensure that the CUDA toolkit version in the D
 Newer CUDA driver versions are backward-compatible with older CUDA toolkit versions.
 To set a specific CUDA toolkit version, add `cudatoolkit=X.Y` to `environment.yml` before building the Docker image.
 
-## Web Interface
+<!-- ## Web Interface
 
 For those less familiar with the command line, Chemprop also includes a web interface which allows for basic training and predicting. An example of the website (in demo mode with training disabled) is available here: [chemprop.csail.mit.edu](http://chemprop.csail.mit.edu/).
 
@@ -128,7 +134,7 @@ pip install gunicorn
 Next, navigate to `chemprop/web` and run `gunicorn --bind {host}:{port} 'wsgi:build_app()'`. This will start the site in production mode.
    * To run this server in the background, add the `--daemon` flag.
    * Arguments including `init_db` and `demo` can be passed with this pattern: `'wsgi:build_app(init_db=True, demo=True)'` 
-   * Gunicorn documentation can be found [here](http://docs.gunicorn.org/en/stable/index.html).
+   * Gunicorn documentation can be found [here](http://docs.gunicorn.org/en/stable/index.html). -->
 
 ## Within Python
 
