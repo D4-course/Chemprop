@@ -5,6 +5,8 @@
 ### Pylint Score - 9.47
 
 
+Link for the video : https://iiitaphyd-my.sharepoint.com/:f:/g/personal/venika_annam_students_iiit_ac_in/EsYgYxwJQYhBgOIQ_KP5rdsB5wPjAumjZ4YK28h4ADm2MQ?e=fAPYhA
+
 ## Molecular Property Prediction
 
 [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/chemprop)](https://badge.fury.io/py/chemprop)
